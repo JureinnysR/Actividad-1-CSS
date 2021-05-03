@@ -1,0 +1,30 @@
+table td {
+    text-align: justify;
+}
+table{
+    width: 100%;
+}
+
+div{
+    text-align: right;
+    background-color: darkgrey;
+
+}
+footer{
+    text-align: center;
+    background-color: darkgrey;
+}
+body {
+    max-width: 1200px;
+    margin: auto;
+
+}
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    body {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+}
